@@ -1,4 +1,10 @@
 str=raw_input("Enter something here:")
+<<<<<<< HEAD
+req=str.split()
+||||||| merged common ancestors
 req=str.split('.')
+=======
+req=str.split(',')
+>>>>>>> zzz
 for x in req:
 	print x,len(x)
